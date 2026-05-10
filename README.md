@@ -86,8 +86,6 @@ customer-support-insight-platform/
 └── README.md
 ```
 ## 📊 Dashboard Overview
-
-```
 The dashboard includes:
 
 KPI Cards
@@ -100,7 +98,7 @@ Top Issues Bar Chart
 Revenue Impact Pie Chart
 Ticket Analytics
 Recent Tickets Table
-```
+
 ## 🧠 Business Insights Generated
 Delivery Delay complaints increased significantly.
 Refund requests represent the highest revenue at risk.
@@ -109,11 +107,10 @@ Payment failures disproportionately affect high-value orders.
 ```
 ## ⚙️ Local Setup
 
-```
 Clone the Repository
 git clone https://github.com/Yougeshkumar/customer-support-insight-platform.git
 cd customer-support-insight-platform
-
+```
 ## Generate Dataset
 pip install pandas
 python generate_dataset.py
@@ -150,8 +147,6 @@ pytest
 ## 🐳 Docker Support
 docker compose up --build
 
-
-```
 ## 📡 API Endpoints
 ```
 Endpoint	Description
@@ -183,9 +178,7 @@ Docker
 GitHub Actions
 Pytest
 ```
-
 ## 👤 Author
-```
 Yougesh Kumar
 
 GitHub: https://github.com/Yougeshkumar
