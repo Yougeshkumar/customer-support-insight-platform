@@ -41,7 +41,11 @@ flowchart LR
     C --> D[SQLite Database]
     D --> E[Insights REST APIs]
     E --> F[React Dashboard]
-📂 Project Structure
+```
+## 📂 Project Structure
+
+```
+
 customer-support-insight-platform/
 ├── backend/
 │   ├── app/
@@ -80,8 +84,10 @@ customer-support-insight-platform/
 ├── docker-compose.yml
 ├── generate_dataset.py
 └── README.md
-📊 Dashboard Overview
+```
+## 📊 Dashboard Overview
 
+```
 The dashboard includes:
 
 KPI Cards
@@ -94,19 +100,25 @@ Top Issues Bar Chart
 Revenue Impact Pie Chart
 Ticket Analytics
 Recent Tickets Table
-🧠 Business Insights Generated
+```
+## 🧠 Business Insights Generated
 Delivery Delay complaints increased significantly.
 Refund requests represent the highest revenue at risk.
 Damaged Product complaints show the highest frustration scores.
 Payment failures disproportionately affect high-value orders.
-⚙️ Local Setup
+```
+## ⚙️ Local Setup
+
+```
 Clone the Repository
 git clone https://github.com/Yougeshkumar/customer-support-insight-platform.git
 cd customer-support-insight-platform
-Generate Dataset
+
+## Generate Dataset
 pip install pandas
 python generate_dataset.py
-Run Backend
+
+## Run Backend
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
@@ -115,7 +127,8 @@ Backend URLs:
 
 API: http://127.0.0.1:8000
 Swagger Docs: http://127.0.0.1:8000/docs
-Run Frontend
+
+## Run Frontend
 cd frontend
 npm install
 npm run dev
@@ -123,18 +136,24 @@ npm run dev
 Frontend URL:
 
 Dashboard: http://localhost:5173
-Load Dataset
+
+## Load Dataset
 
 Open Swagger Docs and run:
 
 POST /api/upload
 
-🧪 Running Tests
+## 🧪 Running Tests
 cd backend
 pytest
-🐳 Docker Support
+
+## 🐳 Docker Support
 docker compose up --build
-📡 API Endpoints
+
+
+```
+## 📡 API Endpoints
+```
 Endpoint	Description
 POST /api/upload	Process dataset
 GET /api/insights/overview	KPI overview
@@ -143,7 +162,9 @@ GET /api/insights/revenue-impact	Revenue at risk by category
 GET /api/tickets	List tickets
 GET /api/tickets/{ticket_id}	Ticket details
 GET /health	Health check
-🛠️ Technology Stack
+```
+## 🛠️ Technology Stack
+```
 Backend
 Python 3.11
 FastAPI
@@ -161,25 +182,12 @@ DevOps
 Docker
 GitHub Actions
 Pytest
-📈 Resume Highlights
-Built an AI-powered customer support analytics platform processing 10,000+ support tickets.
-Developed FastAPI APIs for categorization, sentiment analysis, and revenue-at-risk estimation.
-Designed a React dashboard with KPI cards, charts, and ticket drill-down.
-Implemented automated testing with pytest and CI/CD with GitHub Actions.
-🎤 Interview Summary
+```
 
-This project demonstrates:
-
-AI/ML engineering
-Data pipeline design
-Backend API development
-Frontend dashboard development
-Automated testing
-CI/CD
-Deployment readiness
-👤 Author
-
+## 👤 Author
+```
 Yougesh Kumar
 
 GitHub: https://github.com/Yougeshkumar
 LinkedIn: https://linkedin.com/in/yougeshkumar22
+```
